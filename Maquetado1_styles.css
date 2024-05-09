@@ -1,0 +1,184 @@
+body {
+    width: 1000px;
+    height: 950px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #dc9f10; 
+}
+
+nav {
+    width: 100%; 
+    height: 100px; 
+    padding: 10px;
+    background-color: #41cb81; 
+    border-bottom: 2px solid #000000;
+    border: 10 px solid black;
+    
+
+    display: flex; 
+    justify-content: center ; 
+    align-items: center;
+    float: left;
+    border-bottom: 5px solid #000000; 
+    border-top: 5px solid #000000;
+    border:  5px solid black;
+}
+
+.box {
+    width: 160px; 
+    height: 70px; 
+    background-color: #cccccc; 
+    border: 1px solid #000000; 
+    line-height: 100;
+    float: left;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+     
+    width: 1000px; 
+    height: 300px; 
+    padding: 10px;
+    background-color: #2a744c; 
+    border-bottom: 2px solid #000000;
+    border: 10 px solid black;
+    margin: -8;
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start; 
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000; 
+    border:  5px solid black;
+ 
+    }
+    
+
+.logo{
+    width: 200px; 
+    height: 80px; 
+    background-color: #75d31d; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000;
+    float: right;
+    border:  2px solid black;
+    flex-direction: column;
+     margin-bottom: 10px;
+     margin-left: 10px;
+}
+
+.login{
+    width: 200px; 
+    height: 80px; 
+   
+    background-color: #75d31d; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    float: right;
+    border:  2px solid black;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.form{
+    width: 200px; 
+    height: 80px; 
+   
+    background-color: #75d31d; 
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000; 
+    float: right;
+    border:  2px solid black;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.banner {
+    width: 800px; 
+    height: 265px;
+
+    background-color: #2cff8e; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+    flex-direction: column;
+}
+
+.sidebar{
+    flex-direction: column;
+    flex:1;
+    display: flex;
+
+}
+.main{
+    width: 1000px; 
+    height: 500px; 
+    padding: 10px;
+    background-color: #a0ca56; 
+    border-bottom: 5px solid #000000; 
+    border-top: 5px solid #000000; 
+    border:  5px solid black;
+    margin: -8;
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start; 
+}
+.aside{
+    width: 250px; 
+    height: 500px; 
+    background-color: #1a71b8;
+    border-bottom: 2px solid #000000; 
+    border: 10 px solid black;
+    margin: -8;
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   
+}
+.aside2{
+    width: 250px; 
+    height: 500px; 
+    background-color: #1a71b8;
+    border-bottom: 2px solid #000000; 
+    border: 10 px solid black;
+    margin: -8;
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.article{
+    width: 500px; 
+    height: 500px; 
+    background-color: #b81a96; 
+    border-bottom: 2px solid #000000; 
+    border: 10 px solid black;
+    margin: -8;
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border:  2px solid black;
+}
+.footer{
+    width: 1015px;
+    height: 50px;
+    background-color: #1a71b8;
+    border-bottom: 5px solid #000000; 
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    
+}
